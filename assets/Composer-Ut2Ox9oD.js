@@ -1,4 +1,4 @@
-import{c as re,l as ce,r as h,C as W,s as oe,j as a,d as de,a as ue,b as he}from"./index-BJJKi0mJ.js";Object.fromEntries(Object.values(re).map(([e,l])=>[e,l]));const pe=[[0,4351],[8192,8205],[8208,8223],[8242,8247]],me=280,fe=/https?:\/\/\S+/g;function Y(e){let l=0;const r=String(e).replace(fe,s=>(l+=23,""));for(const s of r){const n=s.codePointAt(0);l+=pe.some(([i,o])=>n>=i&&n<=o)?1:2}return l}const H=Object.freeze({AUTO:"auto_approved",PENDING:"pending_review",APPROVED:"approved",REJECTED:"rejected"});H.AUTO,H.APPROVED;const M=e=>String(e||"").toLowerCase().replace(/[ً-ْـ]/g,"").replace(/[أإآ]/g,"ا").replace(/ى/g,"ي").replace(/ة/g,"ه"),ge=["ولي العهد السعودي","ولي العهد","الملك سلمان","خادم الحرمين","محمد بن سلمان","بن سلمان","القياده السعوديه","الحكومه السعوديه","السلطات السعوديه","النظام السعودي","الاسره الحاكمه","العائله المالكه السعوديه","crown prince","mohammed bin salman","mbs","king salman","saudi leadership","saudi government","saudi authorities","saudi regime","saudi royal","riyadh regime","prince héritier","autorités saoudiennes","régime saoudien","gouvernement saoudien"].map(M),xe=["انتقاد","انتقادات","ينتقد","تنتقد","منتقدين","قمع","اعتقال","معتقلين","معارضين","معارض","حقوق الانسان","انتهاك","انتهاكات","اتهام","اتهامات","يتهم","تتهم","فساد","استبداد","تعذيب","اعدام","ادانه","فضيحه","critic","criticism","criticise","criticize","accuse","accused","crackdown","repression","repressive","dissident","human rights","abuse","authoritarian","corruption","torture","execution","condemn","scandal","autocra","critique","répression","opposant","droits de l'homme","accusé","corruption","autoritaire"].map(M);function z(e,l){const r=l.flatMap(s=>s.startsWith("ال")?[s,"لل"+s.slice(2)]:[s]);for(const s of r){const n=s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");if((/^[a-z]/.test(s)?new RegExp(`(^|[^a-z])${n}`,"i"):new RegExp(`(^|[^\\u0621-\\u064a])([وفبلك]|ال|وال|بال|لل)?${n}`)).test(e))return s}return null}function be(e){const l=M(e),r=z(l,ge);if(!r)return null;const s=z(l,xe);return s?`كلمات مفتاحية: «${r}» مع «${s}»`:null}const we=Object.freeze({double_standard:"ازدواجية المعايير الدولية",adversary:"تفكيك أطراف الفوضى",geopolitics:"تحولات القوى الكبرى",saudi_model:"الرؤية السعودية",press:"قراءة في الصحافة العالمية",breaking:"عاجل",explainer:"شرح وسياق",roundup:"جولة الصحافة العالمية",statement:"بيان",military:"تحليل عسكري",political:"تحليل سياسي"}),K=(e=280)=>Math.max(200,Math.min(e,3e3)-45);function je(e=280,{voice:l=""}={}){const r=K(e),s=e>300;return`# كيف تكتب لحسابي
+import{c as re,l as ce,r as h,C as W,s as oe,j as a,d as de,a as ue,b as he}from"./index-C9rvfYkt.js";Object.fromEntries(Object.values(re).map(([e,l])=>[e,l]));const pe=[[0,4351],[8192,8205],[8208,8223],[8242,8247]],me=280,fe=/https?:\/\/\S+/g;function Y(e){let l=0;const r=String(e).replace(fe,s=>(l+=23,""));for(const s of r){const n=s.codePointAt(0);l+=pe.some(([i,o])=>n>=i&&n<=o)?1:2}return l}const H=Object.freeze({AUTO:"auto_approved",PENDING:"pending_review",APPROVED:"approved",REJECTED:"rejected"});H.AUTO,H.APPROVED;const M=e=>String(e||"").toLowerCase().replace(/[ً-ْـ]/g,"").replace(/[أإآ]/g,"ا").replace(/ى/g,"ي").replace(/ة/g,"ه"),ge=["ولي العهد السعودي","ولي العهد","الملك سلمان","خادم الحرمين","محمد بن سلمان","بن سلمان","القياده السعوديه","الحكومه السعوديه","السلطات السعوديه","النظام السعودي","الاسره الحاكمه","العائله المالكه السعوديه","crown prince","mohammed bin salman","mbs","king salman","saudi leadership","saudi government","saudi authorities","saudi regime","saudi royal","riyadh regime","prince héritier","autorités saoudiennes","régime saoudien","gouvernement saoudien"].map(M),xe=["انتقاد","انتقادات","ينتقد","تنتقد","منتقدين","قمع","اعتقال","معتقلين","معارضين","معارض","حقوق الانسان","انتهاك","انتهاكات","اتهام","اتهامات","يتهم","تتهم","فساد","استبداد","تعذيب","اعدام","ادانه","فضيحه","critic","criticism","criticise","criticize","accuse","accused","crackdown","repression","repressive","dissident","human rights","abuse","authoritarian","corruption","torture","execution","condemn","scandal","autocra","critique","répression","opposant","droits de l'homme","accusé","corruption","autoritaire"].map(M);function z(e,l){const r=l.flatMap(s=>s.startsWith("ال")?[s,"لل"+s.slice(2)]:[s]);for(const s of r){const n=s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");if((/^[a-z]/.test(s)?new RegExp(`(^|[^a-z])${n}`,"i"):new RegExp(`(^|[^\\u0621-\\u064a])([وفبلك]|ال|وال|بال|لل)?${n}`)).test(e))return s}return null}function be(e){const l=M(e),r=z(l,ge);if(!r)return null;const s=z(l,xe);return s?`كلمات مفتاحية: «${r}» مع «${s}»`:null}const we=Object.freeze({double_standard:"ازدواجية المعايير الدولية",adversary:"تفكيك أطراف الفوضى",geopolitics:"تحولات القوى الكبرى",saudi_model:"الرؤية السعودية",press:"قراءة في الصحافة العالمية",breaking:"عاجل",explainer:"شرح وسياق",roundup:"جولة الصحافة العالمية",statement:"بيان",military:"تحليل عسكري",political:"تحليل سياسي"}),K=(e=280)=>Math.max(200,Math.min(e,3e3)-45);function je(e=280,{voice:l=""}={}){const r=K(e),s=e>300;return`# كيف تكتب لحسابي
 
 ## من أنا
 أنا محلل سياسي وعسكري سعودي مسلم، أعتز بديني ووطني. أكتب على X كفرد يقرأ الأحداث بعقل بارد، لا كمتحدث باسم دولة.
@@ -12,17 +12,25 @@ import{c as re,l as ce,r as h,C as W,s as oe,j as a,d as de,a as ue,b as he}from
 - لا أنتقد القيادة السعودية، وإن تطلّب الخبر ذلك: sensitive = true.
 - أحترم الدين والمقدسات دائماً، ولا أسخر من دين أو رمز ديني.
 
-## الشكل: خبر ثم تعليق. فقط.
-**الفقرة الأولى — الخبر:** جملة أو جملتان، واضحة ودقيقة ومنسوبة لمصدرها. من؟ ماذا؟ أين؟ («أفادت رويترز بأن...»، «أعلن الجيش الإسرائيلي...»). بلا تمهيد ولا وصف.
+## هدف الحساب
+حسابي ليس حساب أخبار. هدفه بناء الوعي السياسي والعسكري: أن يفهم القارئ ما وراء الحدث، لا أن يعرف الحدث فقط. الخبر عندي مدخل للتحليل، والتحليل هو المنتج.
+
+## الشكل: فكرة، ثم خبر، ثم تحليل
+**السطر الأول — الفكرة:** جملة قصيرة لافتة تحمل خلاصة قراءتي، لا الخبر. هي ما يراه القارئ قبل «عرض المزيد»، فيجب أن توقفه.
+أمثلة على الشكل: «طهران لا تفاوض لتتفق، بل لتشتري الوقت.» / «أخطر ما في الضربة ليس هدفها، بل مداها.» / «واشنطن تعيد رسم خط أحمر، دون أن تقول ذلك.»
 
 سطر فارغ.
 
-**الفقرة الثانية — التعليق:** من جملتين إلى أربع جمل، تحليل سياسي/عسكري ذكي يضيف ما لا يقوله الخبر:
+**الخبر:** جملة واحدة دقيقة ومنسوبة لمصدرها («أفادت رويترز بأن...»).
+
+سطر فارغ.
+
+**التحليل:** من ثلاث إلى خمس جمل تشرح وتبني الفهم:
 - لماذا الآن؟ ما الرسالة الحقيقية وراء الخطوة؟
 - من يكسب ومن يخسر؟ وما الذي يكشفه عن قدرات الطرف أو ضعفه؟
 - عسكرياً: منطق الردع، وسلّم التصعيد، والقدرات، والجغرافيا، والتوقيت.
 - ما الذي يجب مراقبته بعده؟
-تعليق واحد حاد ومحدد أفضل من ثلاث أفكار عامة. اكتب كمن يفهم الملف من الداخل.
+فكرة واحدة عميقة ومحددة أفضل من ثلاث أفكار عامة. اكتب كمن يفهم الملف من الداخل ويشرحه لقارئ ذكي.
 
 ## ممنوع منعاً باتاً (هذا ما أفسد المنشورات السابقة)
 - أن تتكلم باسم السعودية أو الرياض أو تضيف سطراً عن موقفها: «الرياض ثابتة»، «نهج المملكة»، «الرياض تجمع بين الردع والدبلوماسية»، «المملكة تؤكد». أنا لست الحكومة.
@@ -43,14 +51,14 @@ ${l}
 - ما يمس موازين القوى، والحروب والعمليات العسكرية، وأمن الخليج والملاحة والطاقة، وتحولات أمريكا وإسرائيل وإيران، والقراءات الجادة في الصحافة العالمية.
 - إن كان المصدر مقال رأي أو تحليل في صحيفة عالمية: الخبر = أطروحة الكاتب في جملتين («يرى توماس فريدمان في نيويورك تايمز أن...»)، والتعليق = تقييمي لها: أين أصاب، وما الذي أغفله.
 - يمكنك الاستفادة من <press> و<recent_events> لتعميق التعليق إن كان الربط حقيقياً.
-- الخبر الروتيني والتصريح العابر: skip.
+- الخبر الروتيني، والتصريح العابر، والخبر الذي لا يضيف تحليله فهماً حقيقياً: skip. منشورات قليلة عميقة أفضل من كثيرة سطحية.
 
 ## خطوط لا أتجاوزها
 1. كل واقعة ورقم واسم من <source> أو <press> أو <recent_events> فقط. لا أختلق شيئاً. التحليل رأي واضح أنه رأي.
 2. أنتقد الحكومات والأنظمة والميليشيات بأسمائها، ولا أعمّم على شعب أو دين أو مذهب، ولا شتائم ولا تحريض.
 3. لا أستشهد بآيات أو أحاديث في المنشورات التحليلية (احتراماً لها من الزج في السجال السياسي)، ولا لغة وعظية.
 4. ضحايا مدنيون: بإنسانية واحترام.
-5. الطول: ${s?"بين 250 و700 حرف عادةً. القِصر قوة.":`حتى ${r} حرف.`}
+5. الطول: ${s?"بين 350 و900 حرف عادةً. لا حشو.":`حتى ${r} حرف.`}
 
 ## الصورة المرفقة
 - card_title: عنوان قصير لافت لبطاقة الخريطة (حتى 45 حرفاً) يلخّص التعليق لا الخبر، مثل «مسودة الدوحة: سباق مع بنك الأهداف».
